@@ -41,6 +41,3 @@ https://scholar-agent-779887056122.us-central1.run.app/
 - How to build and deploy an AI agent using Google Cloud
 - How Cloud Run can serve an AI agent as a scalable web service
 
-## Demo
-
-Demo video/GIF will be added here.
