@@ -116,3 +116,8 @@ How RAG systems work end-to-end
 Vector search vs keyword search
 Deploying AI agents on Google Cloud
 Building interactive AI applications
+
+👩‍💻 Author
+Beyza Uzun
+
+AI & Data Enthusiast
