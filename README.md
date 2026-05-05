@@ -41,3 +41,25 @@ https://scholar-agent-779887056122.us-central1.run.app/
 - How to build and deploy an AI agent using Google Cloud
 - How Cloud Run can serve an AI agent as a scalable web service
 
+## 🚀 Architecture
+
+1. Data is processed and chunked  
+2. Text is converted into embeddings using Gemini  
+3. Stored in PostgreSQL with pgvector  
+4. User query → embedding  
+5. Similar documents retrieved  
+6. Context passed to LLM → final answer generated
+    
+## ⚙️ How It Works (RAG Flow)
+
+- **Retrieve:** Convert query to vector & search similar data  
+- **Augment:** Add retrieved context to prompt  
+- **Generate:** LLM produces final answer  
+
+This approach improves accuracy and reduces hallucinations.
+
+## 📂 Project Structure
+
+pipeline/ # Data processing and embedding
+scholar/ # RAG agent logic
+data/ # Dataset
