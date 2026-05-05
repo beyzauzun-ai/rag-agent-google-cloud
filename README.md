@@ -1,6 +1,17 @@
 # RAG Agent with Google Cloud
 
 This project demonstrates an end-to-end Retrieval-Augmented Generation (RAG) system built with Google Cloud.
+## Live Demo
+
+Game UI:  
+https://agentverse-dungeon-779887056122.us-central1.run.app/
+
+Agent Endpoint:  
+https://scholar-agent-779887056122.us-central1.run.app/
+
+## 🎬 Demo
+
+![Demo](demo.gif)
 
 ## Project Overview
 
@@ -25,13 +36,6 @@ It was deployed as a scalable web service using Google Cloud Run and tested thro
 - Cloud Run deployment
 - Interactive mini-boss battle demo
 
-## Live Demo
-
-Game UI:  
-https://agentverse-dungeon-779887056122.us-central1.run.app/
-
-Agent Endpoint:  
-https://scholar-agent-779887056122.us-central1.run.app/
 
 ## What I Learned
 
